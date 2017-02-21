@@ -1,0 +1,16 @@
+/*
+Theme name: Grupo Cervi Versión 1
+Theme URI: http://grupocervi.com
+Author: Soluciones Mart
+Author URI: http://solucionesmart.com
+*/
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
