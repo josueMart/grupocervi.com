@@ -20,9 +20,17 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2017 Copyright 
+            <?php bloginfo(description); ?>
             <a class="grey-text text-lighten-4 right" href="http://solucionesmart.com">solucionesmart.com</a>
             </div>
           </div>
-</footer>   
+</footer>
+<?php wp_footer(); ?>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+</body>
+</html>  
 
