@@ -1,6 +1,3 @@
-<?php 
-// Template Name: Equipo
- ?>
 
 <?php get_header(); ?>
 <?php get_sidebar( ); ?>

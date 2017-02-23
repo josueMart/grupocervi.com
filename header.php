@@ -13,7 +13,7 @@
 <header>
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-  <li><a href="<?php  ?>">Equipo médico</a></li>
+  <li><a href="<?php get_page_link( $post, $leavename, $sample ); ?>">Equipo médico</a></li>
   <li><a href="#!">Partes y consumibles</a></li>
   <li class="divider"></li>
 </ul>
@@ -24,7 +24,7 @@
   <li class="divider"></li>
 </ul>
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper" >
       <a href="#" class="brand-logo"><img class="" src="" alt="">Grupo Cervi S.A. DE C.V.</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="acerca_de.php">Acerca de</a></li>
