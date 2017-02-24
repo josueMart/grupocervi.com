@@ -12,6 +12,17 @@
 			$category_posts->the_post();
 			?>
 				<article>
+				<?php 
+					if (has_post_thumbnail()) { ?>
+						<picture>
+						<source srcset="<?php the_post_thumbnail_url('full');?>" media"(min-width: 600px)"> 
+						<img src="<?php the_post_thumbnail_url('thumbnail');?>" alt="">
+						</picture>
+
+					<?php 
+					}
+					
+				?>
 				<h2><?php the_title(); ?></h2>
 				<p><?php the_excerpt(); ?></p>
 				<footer>
